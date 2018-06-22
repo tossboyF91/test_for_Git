@@ -1,0 +1,42 @@
+Downloading/unpacking kNN_test.py
+  Getting page http://pypi.python.org/simple/kNN_test.py
+  Could not fetch URL http://pypi.python.org/simple/kNN_test.py: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/kNN_test.py when looking for download links for kNN_test.py
+  Getting page http://pypi.python.org/simple/
+  Could not fetch URL http://pypi.python.org/simple/: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/ when looking for download links for kNN_test.py
+  Cannot fetch index base URL http://pypi.python.org/simple/
+Cannot find requirement kNN_test.py, nor fetch index URL http://pypi.python.org/simple/
+Exception information:
+Traceback (most recent call last):
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 305, in main
+    requirement_set.install_files(finder)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 1099, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 396, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 469, in _find_url_name
+    raise DistributionNotFound('Cannot find requirement %s, nor fetch index URL %s' % (req, index_url))
+DistributionNotFound: Cannot find requirement kNN_test.py, nor fetch index URL http://pypi.python.org/simple/
+------------------------------------------------------------
+/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py run on Tue May  8 20:42:49 2018
+Downloading/unpacking kNN_test.py
+  Getting page http://pypi.python.org/simple/kNN_test.py
+  Could not fetch URL http://pypi.python.org/simple/kNN_test.py: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/kNN_test.py when looking for download links for kNN_test.py
+  Getting page http://pypi.python.org/simple/
+  Could not fetch URL http://pypi.python.org/simple/: HTTP Error 403: SSL is required
+  Will skip URL http://pypi.python.org/simple/ when looking for download links for kNN_test.py
+  Cannot fetch index base URL http://pypi.python.org/simple/
+Cannot find requirement kNN_test.py, nor fetch index URL http://pypi.python.org/simple/
+Exception information:
+Traceback (most recent call last):
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 305, in main
+    requirement_set.install_files(finder)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 1099, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 396, in find_requirement
+    url_name = self._find_url_name(Link(self.index_urls[0]), url_name, req)
+  File "/home/pengsu/anaconda3/envs/py27/bin/pyinstall.py", line 469, in _find_url_name
+    raise DistributionNotFound('Cannot find requirement %s, nor fetch index URL %s' % (req, index_url))
+DistributionNotFound: Cannot find requirement kNN_test.py, nor fetch index URL http://pypi.python.org/simple/
